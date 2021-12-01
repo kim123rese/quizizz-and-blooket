@@ -1,0 +1,3 @@
+javascript:(function(){if("www.blooket.com"!=document.location.host)return alert("Drag me to your bookmark bar and click me when you're logged in on blooket.com");localStorage.token?window.open("https://gbasil.dev/blooket?token=".concat(encodeURIComponent(localStorage.token))):alert("Couldn%27t find token, make sure you%27re logged in")})();
+
+
